@@ -20,7 +20,7 @@ function App() {
     const fetchData = async () => {
       try {
         setLoading(true)
-        const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000'
+        const baseUrl = import.meta.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000'
 
         const response = await fetch(`${baseUrl}/api/data`)
         const result = await response.json()
