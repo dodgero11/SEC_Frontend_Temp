@@ -8,8 +8,8 @@ import {
   useReactTable,
 } from '@tanstack/react-table';
 
-import { MaterialFormDialog } from '@/components/materials/MaterialFormDialog';
-import api from '@/services/api'; 
+import { MaterialFormDialog } from '../components/materials/MaterialFormDialog';
+import api from '../services/api';
 
 type Material = {
   material_id: string;

@@ -5,8 +5,8 @@ import {
   ArrowLeftRight, ClipboardCheck, Factory, Layers, Menu, X, FileBarChart,
   LogIn, LogOut // Imported the new icons
 } from 'lucide-react';
-import { cn } from '@/lib/utils';
-import { useAuth } from '@/auth/AuthProvider';
+import { cn } from '../../lib/utils';
+import { useAuth } from '../../auth/AuthProvider';
 
 const navItems = [
   { title: 'Dashboard', url: '/', icon: LayoutDashboard },
